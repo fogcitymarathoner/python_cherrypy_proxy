@@ -13,7 +13,7 @@ class Proxy(object):
 if __name__ == '__main__':
     cherrypy.config.update({
         'server.socket_host': '192.168.1.7',
-        'server.socket_port': 8080,
+        'server.socket_port': 8081,
         'tools.encode.encoding': "utf-8",
     })
     cherrypy.quickstart(Proxy())
